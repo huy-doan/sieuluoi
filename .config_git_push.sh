@@ -89,8 +89,6 @@ create_commit_message_from_issue_github() {
         return
     fi
 
-
-
     # Sử dụng GitHub API để lấy title của issue
     api_url="https://api.github.com/repos/$origin_name/$repo_name/issues/$issue_id"
 
